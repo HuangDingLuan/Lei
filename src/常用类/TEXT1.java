@@ -6,6 +6,7 @@ public class TEXT1 {
 
 	public static void main(String[] args) {
 	test1();
+	test2();
 	}
 
 	public static void test1(){
@@ -19,5 +20,10 @@ public class TEXT1 {
 
 	System.out.println("s出现的次数:"+count);
 
+	}
+	public static void test2() {
+		int start = str.indexOf("test");
+		String s = str.substring(start, start+5);
+		System.out.println("取出"+s);
 	}
 }
