@@ -17,6 +17,10 @@ public class TEXT3 {
 		String str1=a.toString();
 		String str2=String.valueOf(a);
 		//包装类转化字符串
+		String str3=Integer.toString(s);//方法一
+		String str4=String.valueOf(s);//方法二
+		String str5=s+" ";	//方法1三
+		//基本数据类型转化字符串
 	}
 		// TODO Auto-generated method stub
 	}
