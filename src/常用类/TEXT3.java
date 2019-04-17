@@ -12,7 +12,11 @@ public class TEXT3 {
 		
 		int s1=a.intValue();
 		//包装类转化基本数据类型
-		
+		Integer c=Integer.valueOf(str);
+		//字符串转化包装类
+		String str1=a.toString();
+		String str2=String.valueOf(a);
+		//包装类转化字符串
 	}
 		// TODO Auto-generated method stub
 	}
