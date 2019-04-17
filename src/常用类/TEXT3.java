@@ -21,6 +21,9 @@ public class TEXT3 {
 		String str4=String.valueOf(s);//方法二
 		String str5=s+" ";	//方法1三
 		//基本数据类型转化字符串
+		int n =Integer.parseInt(str);//方法一
+		int m =Integer.valueOf(str);//方法二
+		//字符串转化基本数据类型
 	}
 		// TODO Auto-generated method stub
 	}
