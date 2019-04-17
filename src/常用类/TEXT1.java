@@ -13,7 +13,7 @@ public class TEXT1 {
 	test4();
 	test5();
 	test6();
-
+	test7();
 	}
 
 	public static void test1(){
@@ -34,13 +34,11 @@ public class TEXT1 {
 		System.out.println("È¡³ö£º"+s);
 	}
 	public static void test3() {
-		char[] ch = new char[str.length()];
-		for(int i=0; i<str.length();i++) {
-			ch[i]=str.charAt(i);
-		}
-		System.out.println(Arrays.toString(ch));
-		char[] ch2 = str.toCharArray();
-		System.out.println(Arrays.toString(ch2));
+		char[] c2=str.toCharArray();
+		for (int i = 0; i < c2.length; i++) {
+            System.out.print(c2[i]);
+        }
+        System.out.println();
 	}
 	public static void test4() {
 		String[] s1=str.split(" ");
@@ -62,7 +60,12 @@ public class TEXT1 {
 		}
 		System.out.print("\n");	
 	}
+	public static void test7() {
+        String[] s4=str.split("");
+        System.out.println(Arrays.deepToString(s4));
+
 	}
+}
 
 
  
