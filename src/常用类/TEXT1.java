@@ -12,6 +12,8 @@ public class TEXT1 {
 	test3();
 	test4();
 	test5();
+	test6();
+
 	}
 
 	public static void test1(){
@@ -52,8 +54,16 @@ public class TEXT1 {
 	public static void test5() {
 		StringBuffer s3= new StringBuffer(str);
 		System.out.println(s3.reverse().toString());
+		
+		}
+	public static void test6() {
+		for(int i=str.length()-1;i>=0;i--) {
+			System.out.print(str.charAt(i));
+		}
+		System.out.print("\n");	
 	}
-}
+	}
+
 
  
 		
