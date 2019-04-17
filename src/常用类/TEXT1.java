@@ -11,6 +11,7 @@ public class TEXT1 {
 	test2();
 	test3();
 	test4();
+	test5();
 	}
 
 	public static void test1(){
@@ -44,8 +45,13 @@ public class TEXT1 {
 		for (int i = 0; i < s1.length; i++) {
 		String s2 = s1[i].substring(0,1).toUpperCase()+s1[i].substring(1);
 
-		System.out.print(s2+" ");
+		System.out.println(s2+" ");
 		}
+	}
+	
+	public static void test5() {
+		StringBuffer s3= new StringBuffer(str);
+		System.out.println(s3.reverse().toString());
 	}
 }
 
