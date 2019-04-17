@@ -10,6 +10,7 @@ public class TEXT1 {
 	test1();
 	test2();
 	test3();
+	test4();
 	}
 
 	public static void test1(){
@@ -27,7 +28,7 @@ public class TEXT1 {
 	public static void test2() {
 		int start = str.indexOf("test");
 		String s = str.substring(start, start+5);
-		System.out.println("取出"+s);
+		System.out.println("取出："+s);
 	}
 	public static void test3() {
 		char[] ch = new char[str.length()];
@@ -38,4 +39,16 @@ public class TEXT1 {
 		char[] ch2 = str.toCharArray();
 		System.out.println(Arrays.toString(ch2));
 	}
+	public static void test4() {
+		String[] s1=str.split(" ");
+		for (int i = 0; i < s1.length; i++) {
+		String s2 = s1[i].substring(0,1).toUpperCase()+s1[i].substring(1);
+
+		System.out.print(s2+" ");
+		}
+	}
 }
+
+ 
+		
+	
